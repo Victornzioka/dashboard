@@ -1,0 +1,215 @@
+{
+  "cards": [
+    {
+      "label": "Total Revenue",
+      "amount": "ksh 23,670,000",
+      "discription": "+20.1% from last month"
+    },
+    {
+      "label": "Bounced Chaques",
+      "amount": "150",
+      "discription": "50 more from last month"
+    },
+    {
+      "label": "Total Sign Ups",
+      "amount": "+169",
+      "discription": "+19% from last month"
+    },
+    {
+      "label": "Total Collections",
+      "amount": "120",
+      "discription": "+6% from last month"
+    }
+  ],
+
+  "invoices": [
+    {
+      "id": "1",
+      "name": "Aim Higher School",
+      "invoiceNumber": "2501",
+      "product": "Zeraki Finance",
+      "balance": "$ 559,435",
+      "status": "pending",
+      "amountDue": "+$1,999.00",
+      "dueDate": "2024-06-21",
+      "quickActions": "Pay",
+      "schoolId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Total Focus School",
+      "invoiceNumber": "2502",
+      "product": "Zeraki Analytics",
+      "balance": "$ 559,435",
+      "status": "pending",
+      "amountDue": "+$1,999.00",
+      "dueDate": "2024-06-10",
+      "quickActions": "Pay",
+      "schoolId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Score Better School",
+      "invoiceNumber": "2503",
+      "product": "Zeraki Timetable",
+      "balance": "$ 559,435",
+      "status": "pending",
+      "amountDue": "+$39.00",
+      "dueDate": "2024-06-18",
+      "quickActions": "Pay",
+      "schoolId": "6"
+    },
+    {
+      "id": "4",
+      "name": "Hit the Top School",
+      "invoiceNumber": "2504",
+      "product": "Zeraki Finance",
+      "balance": "$ 0",
+      "status": "completed",
+      "amountDue": "+$299.8",
+      "dueDate": "2024-06-08",
+      "quickActions": "Pay",
+      "schoolId": "4"
+    },
+    {
+      "id": "5",
+      "name": "Aim Higher School",
+      "invoiceNumber": "2505",
+      "product": "Zeraki Analytics",
+      "balance": "0",
+      "status": "completed",
+      "amountDue": "+$0",
+      "dueDate": "2024-06-14",
+      "quickActions": "Pay",
+      "schoolId": "1"
+    }
+  ],
+
+  "analytics": [
+    { "name": "Target SignUps: ", "value": 400, "color": "black" },
+    { "name": "Actual SignUps: ", "value": 300, "color": "green" }
+  ],
+
+  "finance": [
+    { "name": "Target SignUps: ", "value": 300, "color": "black" },
+    { "name": "Actual SignUps: ", "value": 150, "color": "green" }
+  ],
+
+  "timetable": [
+    { "name": "Target SignUps: ", "value": 350, "color": "black" },
+    { "name": "Actual SignUps: ", "value": 100, "color": "green" }
+  ],
+
+  "schools": [
+    {
+      "id": "1",
+      "name": "Aim Higher School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "2",
+      "name": "Get Better School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "3",
+      "name": "Focus More School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "4",
+      "name": "Hit the Top School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "5",
+      "name": "Avoid Failure School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "6",
+      "name": "Score Better School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "7",
+      "name": "Aim Higher School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "8",
+      "name": "Aim Higher School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "9",
+      "name": "Aim Higher School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "10",
+      "name": "Aim Higher School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    },
+    {
+      "id": "11",
+      "name": "Aim Higher School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2022-11-06",
+      "contactInfo": "(+2) 1234 5432",
+      "schoolBalance": "20,000"
+    }
+  ]
+}
