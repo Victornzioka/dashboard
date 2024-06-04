@@ -13,7 +13,6 @@ import FinancePieChart from "@/components/FinancePieChart";
 import UpcomingInvoicesTable from "@/components/UpcomingInvoicesTable";
 import TopCard from "@/components/TopCard";
 // import { useState } from "react";
-import ManageCollection from "@/components/ManageCollection";
 
 export type SalesProps = {
   name: string;
