@@ -18,11 +18,11 @@ const getInvoiceData = async () => {
   return res.json();
 };
 
-type Props = {
-  searchParams: { [key: string]: string | string[] | undefined };
-};
+// type Props = {
+//   searchParams: { [key: string]: string | string[] | undefined };
+// };
 
-const School = async ({ searchParams }: Props) => {
+const School = async ({ searchParams }) => {
   const id = searchParams.id;
 
   const items = await getData();
