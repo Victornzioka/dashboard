@@ -11,7 +11,9 @@ import {
 } from "recharts";
 
 const getAnalyticsData = async () => {
-  const res = await fetch("http://localhost:8000/analytics");
+  const res = await fetch(
+    "https://json-server-data-wy7t.onrender.com/analytics"
+  );
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }

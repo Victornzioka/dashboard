@@ -2,7 +2,7 @@ import React from "react";
 import Card, { CardContent, CardProps } from "./Card";
 
 const getCardData = async () => {
-  const res = await fetch("http://localhost:8000/cards");
+  const res = await fetch("https://json-server-data-wy7t.onrender.com/cards");
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }

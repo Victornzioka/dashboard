@@ -4,7 +4,7 @@ import React from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 
 const getFinanceData = async () => {
-  const res = await fetch("http://localhost:8000/finance");
+  const res = await fetch("https://json-server-data-wy7t.onrender.com/finance");
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }

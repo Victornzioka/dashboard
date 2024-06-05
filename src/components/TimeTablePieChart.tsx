@@ -11,7 +11,9 @@ import {
 } from "recharts";
 
 const getTimetableData = async () => {
-  const res = await fetch("http://localhost:8000/timetable");
+  const res = await fetch(
+    "https://json-server-data-wy7t.onrender.com/timetable"
+  );
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }

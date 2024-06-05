@@ -29,7 +29,9 @@ export const columns: ColumnDef<SalesProps>[] = [
 ];
 
 const getUpcomingInvoicesData = async () => {
-  const res = await fetch("http://localhost:8000/invoices");
+  const res = await fetch(
+    "https://json-server-data-wy7t.onrender.com/invoices"
+  );
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }

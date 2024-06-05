@@ -3,7 +3,9 @@ import CreateButton from "@/components/CreateButton";
 import React from "react";
 
 const getData = async () => {
-  const res = await fetch("http://localhost:8000/schools?_embed=invoices");
+  const res = await fetch(
+    "https://json-server-data-wy7t.onrender.com/schools?_embed=invoices"
+  );
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
@@ -11,7 +13,9 @@ const getData = async () => {
 };
 
 const getInvoiceData = async () => {
-  const res = await fetch("http://localhost:8000/invoices");
+  const res = await fetch(
+    "https://json-server-data-wy7t.onrender.com/invoices"
+  );
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
@@ -29,7 +33,9 @@ const School = async ({ searchParams }) => {
   const school = await items.find((item) => item.id === id);
   const school_invoices = school.invoices;
 
-  console.log(school_invoices[0]?.name);
+  const keys = Object.keys(school_invoices);
+  // console.log(typeof keys);
+  console.log(keys.map((i) => keys[i]));
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -66,11 +72,11 @@ const School = async ({ searchParams }) => {
         </table>
       </CardContent>
       <CardContent>
-        {school_invoices[0] ? (
-          <>
-            <h1>{school_invoices[0].name}</h1>
-            <hr />
-            <p>Current Invoices</p>
+        <p>Current Invoices</p>
+
+        {keys.map((i, index) => (
+          <div key={index}>
+            <h1>{keys[i].name}</h1>
             <hr />
 
             <div className="flex flex-wrap gap-5 border-2 border-black rounded-md p-2">
@@ -107,10 +113,10 @@ const School = async ({ searchParams }) => {
                 <p className="text-gray-500 ">{school_invoices[0].status}</p>
               </div>
             </div>
-          </>
-        ) : (
-          <div className="">No Invoices to show</div>
-        )}
+          </div>
+        ))}
+
+        {keys.length == 0 && <div className="">No Invoices to show</div>}
 
         <CreateButton />
       </CardContent>
